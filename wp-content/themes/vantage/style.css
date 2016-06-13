@@ -2408,7 +2408,7 @@ body.layout-full {
 /* Footer Calendar styling: colors assume the original theme footer background color. */
 .site-footer #wp-calendar tbody td {
   background: #434447;
-  border-color: #2f3033;
+  border-color: #ffffff;
 }
 .site-footer #wp-calendar tbody td a {
   color: #fff;
