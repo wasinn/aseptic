@@ -5,15 +5,8 @@ function enqueue_parent_styles() {
 }
 
 function register_my_menu() {
-  register_nav_menu('footer-menu',__( 'Footer Menu' ));
+  register_nav_menu('top-menu',__( 'Top Menu' ));
 }
-
-function register_my_menu2() {
-  register_nav_menu('footer-menu2',__( 'Footer Menu2' ));
-}
-
-
 
 add_action( 'init', 'register_my_menu' );
-add_action( 'init', 'register_my_menu2' );
 ?>

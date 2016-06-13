@@ -4,9 +4,12 @@
  */
 ?>
 <header id="masthead" class="site-header" role="banner">
-
 	<div class="hgroup full-container">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="logo"><?php vantage_display_logo(); ?></a>
+<div class="top-menu">
+			 <?php wp_nav_menu( array( 'theme_location' => 'top-menu', 'container_class' => 'top_menu_class' ) ); ?>
+		</div>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="logo"><?php vantage_display_logo(); ?></a><br>
+		
 
 		<?php if( is_active_sidebar('sidebar-header') ) : ?>
 

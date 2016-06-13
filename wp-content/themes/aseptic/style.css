@@ -7,49 +7,43 @@
  Version:      1.0.0
 */
 
+/*footer menu*/
 .menu-footer-container{
-
     text-align:center;
     margin:5px;
     position:relative;
 }
-
 .menu-footer-container li {
     display: inline;
 }
-
 .menu-footer-container li a {
     /* color:black; */
     padding:15px;
     text-decoration: none;
 }
 
-/*position of address and copyright*/
-
-.address{
-
-	float:left;
- 	font-size:10px;
-   	margin-left: 200px;
-   	margin-bottom: 20px;
-   	opacity: 0.5;
-
+/*footer menu*/
+.top_menu_class{
+    text-align:right ;
+    position:relative;
 }
-.copyright{
-
-  float:right;
-  font-size:10px;
-  margin-right: 200px;
-  margin-bottom: 20px;
-  opacity: 0.5;
+.top_menu_class li {
+    display: inline ;
+}
+.top_menu_class li a {
+    /* color:black; */
+    padding:15px;
+    text-decoration: none;
 }
 
+
+
+/*footer bar color*/
 #colophon {
     margin-bottom: 20px;
     background: #ffffff;
     padding: 30px;
 }
-
 .layout-full #colophon {
     margin-bottom: 0;
     margin-top: 0;
@@ -58,14 +52,12 @@
     text-align: center;
 }
 
-
+/*footer siteinfo*/
 #colophon #theme-attribution, #colophon #site-info {
     float: left;
     margin-top: 25px;
     color: #aaaaaa;
     font-size: 11.5px; }
-
-/*Copyright*/
 #colophon #theme-attribution2, #colophon #site-info {
     float : right;
     margin-top: 25px;
@@ -73,7 +65,19 @@
     font-size: 11.5px;
 }
 
-body.responsive #masthead.hgroup.logo img {
-    max-width: 50%;
-    height: auto;
+/*logo size*/
+#masthead .hgroup .logo img {
+    vertical-align: bottom;
+    width: 50%;
+    height: 50%;
+}
+
+/*font awesome big icon*/
+.fabig{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: large;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
