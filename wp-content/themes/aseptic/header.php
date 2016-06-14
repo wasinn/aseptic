@@ -38,3 +38,7 @@
 	<div id="main" class="site-main">
 		<div class="full-container">
 			<?php do_action( 'vantage_main_top' ); ?>
+
+
+
+
